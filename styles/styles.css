@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: #e1c5c5;
+    background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+    color: #333;
+    transition: background 0.3s;
+}
+
+h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #0011ff;
+    text-decoration: none;
+}
+
+.card {
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff6f6dd;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}
