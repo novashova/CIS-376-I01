@@ -40,7 +40,7 @@ function addBlogEntry({ title, date, content, tags }) {
 }
 
 async function loadBlogEntries() {
-    const JSON_URL = "https://novashova.github.io/devBlogData/blog-entries.json";
+    const JSON_URL = "https://novashova.github.io/devBlogData/posts.json";
     try {
         const response = await fetch(JSON_URL);
         const posts = await response.json();
@@ -50,7 +50,7 @@ async function loadBlogEntries() {
         addBlogEntry({
             title: "Error loading blog",
             date: new Date().toISOString().split("T")[0],
-            content: "Check your JSON URL.",
+            content: "Check your stuff!!.",
             tags: ["error"]
         });
     }
