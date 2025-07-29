@@ -3,6 +3,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     console.log("HOWDY!");
 
+    loadBlogEntries()
+
     const funBtn = document.getElementById("funBtn");
     if (funBtn) {
         funBtn.addEventListener("click", () => {
