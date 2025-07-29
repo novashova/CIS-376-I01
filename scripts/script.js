@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // create a blog card
 function addBlogEntry({ title, date, content, tags }) {
-    const blog = document.getElementById("blog-entries");
+    const blog = document.getElementById("posts");
     if (!blog) return;
 
     const card = document.createElement("div");
